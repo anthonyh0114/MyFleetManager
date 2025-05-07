@@ -31,7 +31,7 @@ An iOS application for managing fleet vehicles, tracking rental agreements, and 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/MyFleetManager.git
+   git clone https://github.com/anthonyh0114/MyFleetManager.git
    ```
 2. Open `MyFleetManager.xcodeproj` in Xcode
 3. Build and run the project
@@ -61,6 +61,10 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduc
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
+## Content Rights
+
+Please read our [CONTENT_RIGHTS.md](CONTENT_RIGHTS.md) for information about content licensing and usage rights.
+
 ## Privacy
 
 Please read our [PRIVACY.md](PRIVACY.md) for information about how we handle your data.
@@ -68,7 +72,7 @@ Please read our [PRIVACY.md](PRIVACY.md) for information about how we handle you
 ## Support
 
 If you encounter any issues or have questions, please:
-1. Check the [Issues](https://github.com/yourusername/MyFleetManager/issues) page
+1. Check the [Issues](https://github.com/anthonyh0114/MyFleetManager/issues) page
 2. Create a new issue if your problem hasn't been reported
 3. Contact support at support@myfleetmanager.com
 
