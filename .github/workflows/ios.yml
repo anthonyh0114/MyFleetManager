@@ -1,0 +1,25 @@
+name: iOS CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build-and-test:
+    runs-on: macos-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Select Xcode
+      run: sudo xcode-select -switch /Applications/Xcode.app
+      
+    - name: Build
+      run: |
+        xcodebuild clean build -project MyFleetManager.xcodeproj -scheme MyFleetManager -destination 'platform=iOS Simulator,name=iPhone 14,OS=16.0' | xcpretty
+        
+    - name: Run Tests
+      run: |
+        xcodebuild test -project MyFleetManager.xcodeproj -scheme MyFleetManager -destination 'platform=iOS Simulator,name=iPhone 14,OS=16.0' | xcpretty 
